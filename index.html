@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idea</title>
+
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="./images/icons/logo.png" type="image/x-icon">
+
+    <!-- link tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- add font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Extra thing added -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- font style -->
+    <style>
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .font-open-sans {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .font-roboto {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-[#f3f1ff]">
+    <!-- header section -->
+    <header class="bg-[#562eff]">
+        <nav class="flex items-center justify-between w-full py-9 lg:px-[285px]">
+            <div class="flex items-center justify-center gap-4">
+                <img class="w-[40px] h-[50px]" src="./images/icons/logo.png" alt="">
+                <p class="text-[#FFF] font-poppins font-medium text-2xl">Idea</p>
+            </div>
+            <div>
+                <ul class="flex items-center justify-center gap-9">
+                    <li class="text-[#FFF] font-poppins font-normal text-base"><a href="">About</a></li>
+                    <li class="text-[#FFF] font-poppins font-normal text-base"><a href="">Home</a></li>
+                    <li class="text-[#FFF] font-poppins font-normal text-base"><a href="">Works</a></li>
+                    <li><a href=""><img src="./images/icons/profile.png" alt=""></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- main section -->
+    <main></main>
+
+    <!-- footer section -->
+    <footer></footer>
+</body>
+
+</html>
